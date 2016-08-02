@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+html{
+  font-size: 50px;
+}
+body{
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+.ui-header{
+  width: 100%;
+  height: 1.3rem;
+  background-color:#3b6dd0;
+  line-height: 1.3rem;
+  position: relative;
+}
+.ui-header__title{
+  font-size: 0.32rem;
+  color: #fff;
+  text-align: center;
+  padding-top: 0.2rem;
+}
+.ui-header__leftBtn{
+  background-image: url(purchase-detail-image/backarrow.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 0.22rem;
+  height: 0.36rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.68rem;
+}
+.ui-body__row{
+  background-color: #FFF;
+  width: 100%;
+  height: 0.96rem;
+  position: relative;
+}
+.ui-body__lefttext{
+  font-size: 0.28rem;
+  position: absolute;
+  line-height: 0.96rem;
+  left: 0.2rem;
+}
+.ui-body__righttext{
+  font-size: 0.28rem;
+  position: absolute;
+  line-height: 0.96rem;
+  right: 0.2rem;
+  color: #a6a6a6;
+}
+.is-line{
+  width: 100%;
+  height: 1px;
+  background-color: #f0f0f0;
+}
+.ui-body__gooddetail{
+  margin-top: 0.22rem;
+}
+.ui-body__text{
+  float: left;
+  font-size: 0.24rem;
+  line-height: 0.96rem;
+  width: 20%;
+  text-align: left;
+  margin-left:0.2rem;
+ }
+.ui-body__note{
+  margin-top: 0.22rem;
+}
+.ui-body__notetext{
+  font-size: 0.28rem;
+  position: absolute;
+  line-height: 0.96rem;
+  left: 0.2rem;
+  color: #c4c4c4;
+}
+.ui-footer{
+  margin-top: 0.66rem;
+  position: relative;
+}
+.ui-body__toptext{
+  font-size: 0.28rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.24rem;
+}
+.ui-body__toptext > span{
+  color: #e54f4f;
+}
+.ui-body__bottomtext{
+  font-size: 0.28rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.56rem;
+}
+.ui-body__bottomtext > span{
+  color:  #e54f4f;
+}

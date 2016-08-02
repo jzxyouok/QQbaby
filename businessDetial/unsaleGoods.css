@@ -1,0 +1,72 @@
+html{
+font-size: 50px;
+}
+body{
+  background-color: #f0f0f0;
+}
+.ui-body{
+  width: 100%;
+  margin-top: 0.24rem;
+}
+.ui-body__row{
+  width: 100%;
+  height: 2rem;
+  background-color: #FFF;
+  position: relative;
+}
+.ui-body__pic{
+  background-image: url(saleGoods-img/goodsPic.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.2rem;
+}
+.ui-body__title{
+  font-size: 0.24rem;
+  position: absolute;
+  left: 2.1rem;
+  top: 0.32rem;
+  line-height: normal;
+}
+.ui-body__leftText1{
+  font-size: 0.24rem;
+  color: #a1a1a1;
+  position: absolute;
+  top: 1.1rem;
+  left: 2.1rem;
+}
+.ui-body__leftText2{
+  font-size: 0.24rem;
+  color: #a1a1a1;
+  position: absolute;
+  left: 2.1rem;
+  top: 1.5rem;
+}
+.ui-body__rightText{
+  font-size: 0.24rem;
+  color: #a1a1a1;
+  position: absolute;
+  right: 0.5rem;
+  top: 1.1rem;
+}
+.is-line{
+  height: 1px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.ui-body__button{
+  font-size: 0.28rem;
+  color: #FFF;
+  text-align: center;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.16rem;
+  width: 1rem;
+  line-height: 0.4rem;
+  height: 0.4rem;
+  background-color: #3b6dd0;
+  border-radius: 5px;
+}

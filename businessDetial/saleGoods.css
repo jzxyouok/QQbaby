@@ -1,0 +1,142 @@
+html{
+font-size: 50px;
+}
+body{
+  background-color: #f0f0f0;
+}
+.ui-body{
+  width: 100%;
+  margin-top: 0.24rem;
+}
+.ui-body__row{
+  width: 100%;
+  height: 2rem;
+  background-color: #FFF;
+  position: relative;
+}
+.ui-body__slect{
+  background-image: url(saleGoods-img/slect.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 0.4rem;
+  height: 0.4rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.8rem;
+}
+.ui-body__slect .ui-body__unslect{
+  background-image: url(saleGoods-img/unslect.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 0.4rem;
+  height: 0.4rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.8rem;
+}
+.ui-body__pic{
+  background-image: url(saleGoods-img/goodsPic.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 0.76rem;
+  top: 0.2rem;
+}
+.ui-body__title{
+  font-size: 0.24rem;
+  position: absolute;
+  left: 2.68rem;
+  top: 0.32rem;
+  line-height: normal;
+}
+.ui-body__leftText1{
+  font-size: 0.24rem;
+  color: #a1a1a1;
+  position: absolute;
+  top: 1.16rem;
+  left: 2.68rem;
+}
+.ui-body__leftText2{
+  font-size: 0.24rem;
+  color: #a1a1a1;
+  position: absolute;
+  left: 2.68rem;
+  top: 1.56rem;
+}
+.ui-body__rightText{
+  font-size: 0.24rem;
+  color: #a1a1a1;
+  position: absolute;
+  right: 0.5rem;
+  top: 1.16rem;
+}
+.is-line{
+  height: 1px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.ui-body__unslect{
+  background-image: url(saleGoods-img/unslect.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 0.4rem;
+  height: 0.4rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.8rem;
+}
+.ui-body__unslect .ui-body__slect{
+  background-image: url(saleGoods-img/slect.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 0.4rem;
+  height: 0.4rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.8rem;
+}
+.ui-footer{
+  width: 100%;
+  height: 0.98rem;
+  position: relative;
+}
+.ui-footer__left{
+  width: 50%;
+  height: 0.98rem;
+}
+.ui-footer__unslect{
+  background-image: url(saleGoods-img/unslect.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 0.4rem;
+  height: 0.4rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.3rem;
+}
+.ui-footer__title{
+  font-size: 0.28rem;
+  position: absolute;
+  left: 0.76rem;
+  top: 0.36rem;
+}
+.ui-footer__text{
+  font-size: 0.24rem;
+  position: absolute;
+  left: 1.5rem;
+  top: 0.38rem;
+}
+.ui-footer__button{
+position: absolute;
+right: 0;
+top: 0;
+width: 50%;
+height: 0.98rem;
+line-height: 0.98rem;
+text-align: center;
+font-size: 0.32rem;
+color: #FFF;
+background-color: #3b6dd0;
+}
