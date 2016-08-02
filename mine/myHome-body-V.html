@@ -1,0 +1,40 @@
+<div class="ui-myHome__body">
+	<div class="ui-myHome__header">
+		<span>
+			<img v-if="isBusiness" src="{{myBusiness}}"/>
+			<img v-if="isCompany" src="{{myCompany}}"/>
+			<img v-if="isStore" src="{{myStore}}"/>
+		</span>
+		<div class="ui-myHome__headerText">
+			<div>{{headerTopText}}</div>
+			<div>{{headerBottomText}}</div>
+		</div>
+	</div>
+
+	<div class="ui-myHome__list">
+		<!--<div class="ui-myHome__listItem" v-show="isMyCommission" v-touch:tap="onCommissionTap">
+			<span>
+				<img src="{{isMyCommissionImg}}"/>
+			</span>
+			<div class="ui-myHome__listText">
+				我的提成
+			</div>
+		</div>
+		<div class="ui-myHome__listItem" v-show="isMyNewClien" v-touch:tap="newClienTap">
+			<span>
+				<img src="{{isMyNewClienImg}}"/>
+			</span>
+			<div class="ui-myHome__listText">
+				新客开发
+			</div>
+		</div>-->
+		<div class="ui-myHome__listItem" v-touch:tap="onSettingTap">
+			<span>
+				<img src="../../image/me/set.png"/>
+			</span>
+			<div class="ui-myHome__listText">
+				设置
+			</div>
+		</div>
+	</div>
+</div>

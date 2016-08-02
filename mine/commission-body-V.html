@@ -1,0 +1,40 @@
+<div class="ui-commission__body">
+	<div class="ui-commission__head">
+		<div class="ui-commission__headText">本月可获提成</div>
+		<div class="ui-commission__headCommission">￥{{commission.this_total_kpi_price|trans-price-before}}.{{commission.this_total_kpi_price|trans-price-after}}</div>
+		<div class="ui-commission_headLast">上月提成：￥{{commission.last_total_kpi_price|trans-price-before}}.{{commission.last_total_kpi_price|trans-price-after}}</div>
+	</div>
+	<div class="ui-commission_content" v-touch:tap="onDetailTap">
+		<span class="ui-commission__contentImg">
+			<img src="../../image/me/ticheng_explain.png">
+		</span>
+		<div class="ui-commission_contentText">提成明细</div>
+		<span class="ui-commission__more">更多</span>
+		<span class="ui-commission__moreImg">
+			<img src="../../image/me/more.png">
+		</span>
+	</div>
+	<div class="ui-commission__bottom">
+		<div class="ui-commission__item" v-for="item in list">
+			<div>{{item.kpi_name}}</div>
+			<div class="ui-commission__barCode">{{item.kpi_no}}</div>
+			<div class="ui-commission__barCode">商品条码：{{item.bar_code}}</div>
+			<div class="ui-commission__many" v-bind:class="{'isRed':item.kpi_price>=0,'isBlue':item.kpi_price<0}">{{item.kpi_price>=0 ? '+':''}}{{item.kpi_price|trans-price}}</div>
+			<div class="ui-commission__time">{{item.kpi_time}}</div>
+		</div>
+		<!--<div class="ui-commission__item">
+			<div>品牌提成</div>
+			<div class="ui-commission__barCode">{{kpi_no}}</div>
+			<div class="ui-commission__barCode">{{bar_code}}</div>
+			<div class="ui-commission__many" v-bind:class="{'isRed':kpi_price>=0,'isBlue':kpi_price<0}">{{kpi_price>=0 ? '+':''}}{{kpi_price|trans-price}}</div>
+			<div class="ui-commission__time">{{kpi_time}}</div>
+		</div>
+		<div class="ui-commission__item">
+			<div>类别提成</div>
+			<div class="ui-commission__barCode">{{kpi_no}}</div>
+			<div class="ui-commission__barCode">{{bar_code}}</div>
+			<div class="ui-commission__many" v-bind:class="{'isRed':kpi_price>=0,'isBlue':kpi_price<0}">{{kpi_price>=0 ? '+':''}}{{kpi_price|trans-price}}</div>
+			<div class="ui-commission__time">{{kpi_time}}</div>
+		</div>-->
+	</div>
+</div>
